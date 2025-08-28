@@ -30,3 +30,7 @@ source "crypto/Kconfig"
 source "lib/Kconfig"
 
 source "lib/Kconfig.debug"
+
+config MISC_OPT_OVERCLOCK
+     bool "Misc Option Overclocking"
+     default n
